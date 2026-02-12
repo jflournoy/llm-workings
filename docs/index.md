@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "LLM Workings"
-  text: "A hands-on exploration of how language models work"
-  tagline: Understanding the internals of large language models - not just how to use them, but how they represent and process information
+  text: "Learning how language models work through Socratic dialogue"
+  tagline: A hands-on exploration of LLM internals - with Claude as tutor, prioritizing understanding over answers
   actions:
     - theme: brand
       text: Get Started
