@@ -1,3 +1,8 @@
+---
+title: TDD Success Stories
+description: Real examples showing the power of TDD with Claude Code
+---
+
 # TDD Success Stories with Claude Code
 
 Real examples from this repository showing the power of TDD with Claude.
@@ -25,9 +30,9 @@ Real examples from this repository showing the power of TDD with Claude.
 **Total time: 40 minutes** ✨
 
 #### The Commits Tell the Story
-1. [🔴 Test Phase](../../commit/aa00002) - Wrote all tests first
-2. [🟢 Implementation](../../commit/aa00002) - Claude implemented perfectly
-3. [📚 Documentation](../../commit/b131df0) - Auto-generated examples
+1. [🔴 Test Phase](https://github.com/jflournoy/llm-workings/commit/aa00002) - Wrote all tests first
+2. [🟢 Implementation](https://github.com/jflournoy/llm-workings/commit/aa00002) - Claude implemented perfectly
+3. [📚 Documentation](https://github.com/jflournoy/llm-workings/commit/b131df0) - Auto-generated examples
 
 #### The Result
 - Zero bugs in production
@@ -57,7 +62,7 @@ it('should estimate tokens from text', () => {
 Then Claude implemented exactly that. No more, no less.
 
 ### The Victory
-- [✅ Commit c446afe](../../commit/c446afe) - Perfect implementation
+- [✅ Commit c446afe](https://github.com/jflournoy/llm-workings/commit/c446afe) - Perfect implementation
 - All edge cases handled
 - Clean, readable code
 - 100% test coverage
@@ -68,8 +73,8 @@ Then Claude implemented exactly that. No more, no less.
 We used TDD to build the TDD tooling. How's that for eating our own dog food?
 
 ### The Process
-1. [🔴 Tests for TDD detection](../../commit/2ce43d1)
-2. [🟢 Framework detection implementation](../../commit/b344bc7)
+1. [🔴 Tests for TDD detection](https://github.com/jflournoy/llm-workings/commit/2ce43d1)
+2. [🟢 Framework detection implementation](https://github.com/jflournoy/llm-workings/commit/b344bc7)
 3. Tests for test commands
 4. Implementation of test runners
 
@@ -138,13 +143,13 @@ Needed to refactor the entire docs.js module for better organization.
 ## Testimonials from Our Commits
 
 ### "The Test That Saved Production"
-Commit [8ec6319](../../commit/8ec6319): A simple test for broken links caught an issue that would have broken documentation in production.
+Commit [8ec6319](https://github.com/jflournoy/llm-workings/commit/8ec6319): A simple test for broken links caught an issue that would have broken documentation in production.
 
 ### "The Refactor That Just Worked"
-Commit [f84cac6](../../commit/f84cac6): Major refactoring completed in one commit because tests ensured nothing broke.
+Commit [f84cac6](https://github.com/jflournoy/llm-workings/commit/f84cac6): Major refactoring completed in one commit because tests ensured nothing broke.
 
 ### "The Feature That Wrote Itself"
-Commit series [1fdac58](../../commit/1fdac58) → [d0af9df](../../commit/d0af9df): Tests defined the behavior so clearly that Claude's implementation was perfect on first try.
+Commit series [1fdac58](https://github.com/jflournoy/llm-workings/commit/1fdac58) → [d0af9df](https://github.com/jflournoy/llm-workings/commit/d0af9df): Tests defined the behavior so clearly that Claude's implementation was perfect on first try.
 
 ## Pattern Recognition
 

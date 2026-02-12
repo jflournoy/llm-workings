@@ -1,3 +1,8 @@
+---
+title: Workflows
+description: Real-world command workflows for common development tasks
+---
+
 # Real-World Command Workflows
 
 ## Feature Development Flow

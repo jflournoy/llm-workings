@@ -1,3 +1,8 @@
+---
+title: Quick Reference
+description: Essential Claude Code commands for daily use
+---
+
 # Claude Code Commands - Quick Reference
 
 ## Essential Commands (Use Daily)

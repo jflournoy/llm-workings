@@ -1,3 +1,8 @@
+---
+title: Best Practices
+description: Effective patterns for using Claude Code in your development workflow
+---
+
 # Claude Code Best Practices Guide
 
 <!-- 
@@ -116,7 +121,7 @@ Every project should have a `CLAUDE.md` file documenting:
 
 ### NPM Script Delegation Pattern
 
-**Source**: This Repository's Measured Results ([docs/TOKEN_EFFICIENCY.md](TOKEN_EFFICIENCY.md))
+**Source**: This Repository's Measured Results ([Token Efficiency Guide](./token-efficiency))
 
 Achieve 87% token reduction through npm script delegation:
 

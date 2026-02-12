@@ -1,3 +1,8 @@
+---
+title: API Setup
+description: Configuring Claude API for GitHub CI/CD automation
+---
+
 # Claude API Setup Guide for GitHub CI/CD
 
 > **TL;DR:** This enables **GitHub Actions** to automatically run the **Agent Auditor** (`.claude/agents/agent-auditor.md`) on a schedule, auditing all your AI agents for quality issues without manual intervention.

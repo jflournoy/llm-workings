@@ -1,3 +1,8 @@
+---
+title: Command Catalog
+description: Complete list of all available Claude Code commands
+---
+
 # Command Catalog
 
 Complete list of all available Claude Code commands.

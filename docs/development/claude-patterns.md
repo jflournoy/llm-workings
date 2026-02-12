@@ -1,3 +1,8 @@
+---
+title: Claude Patterns
+description: Best practices specific to Claude Code interactions
+---
+
 # Claude Code Patterns
 
 <!-- 

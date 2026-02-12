@@ -1,3 +1,8 @@
+---
+title: Feature Check
+description: Quality assurance system for validating feature implementation
+---
+
 # Feature Check Quality System
 
 ## Overview

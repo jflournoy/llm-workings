@@ -1,3 +1,8 @@
+---
+title: Token Efficiency
+description: Reducing AI token consumption by 85-90% through npm script delegation
+---
+
 # Token-Efficient Command Architecture
 
 ## Overview

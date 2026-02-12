@@ -1,3 +1,8 @@
+---
+title: Agent Patterns
+description: Patterns for creating and using Claude Code agents effectively
+---
+
 # Claude Code Agent Patterns and Best Practices
 
 ## Overview

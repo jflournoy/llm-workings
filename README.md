@@ -2,6 +2,9 @@
 
 **A hands-on exploration of how language models actually work**
 
+📚 **[View Full Documentation](https://jflournoy.github.io/llm-workings/)**
+🎮 **[Try Interactive Demo](https://jflournoy.github.io/llm-workings/demos/neural-network)**
+
 ## What This Is
 
 A personal learning project to understand the internals of large language models - not just how to use them, but how they represent and process information. The goal is to build intuition for what's happening inside these systems and eventually create tools to probe and understand their representations.

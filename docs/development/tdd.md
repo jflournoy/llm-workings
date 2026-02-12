@@ -1,3 +1,8 @@
+---
+title: TDD with Claude
+description: Why Test-Driven Development makes Claude Code more effective
+---
+
 # TDD with Claude: Why It's Actually Cool (We Promise)
 
 ## For the TDD Skeptics
@@ -29,7 +34,7 @@ TDD doesn't slow Claude down - it gives Claude superpowers:
 ### Example 1: Documentation Examples Feature
 - **Without TDD**: Would have been a mess of regex and file operations
 - **With TDD**: [27 tests](../test/docs-examples.unit.test.js) → Perfect implementation
-- **Result**: Feature works flawlessly, see commits [aa00002](../../commit/aa00002)
+- **Result**: Feature works flawlessly (see git history for commit aa00002)
 
 ### Example 2: Context Management
 - **The Challenge**: Complex file size calculations and token estimation
@@ -228,4 +233,4 @@ Be the next one.
 
 ---
 
-*Still skeptical? Check out [TDD Success Stories](TDD_SUCCESS_STORIES.md) for more real examples.*
+*Still skeptical? Check out [TDD Success Stories](./tdd-stories) for more real examples.*

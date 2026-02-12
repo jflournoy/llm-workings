@@ -1,3 +1,8 @@
+---
+title: Self-Updating Docs
+description: Creating documentation that updates itself through Claude Code commands
+---
+
 # Self-Updating Documentation Guide
 
 <!-- 
@@ -48,7 +53,7 @@ This header:
 
 ### 2. The `/docs` Command
 
-The enhanced `/docs` command ([view command](.claude/commands/docs.md)) supports:
+The enhanced `/docs` command (in `.claude/commands/docs.md`) supports:
 
 #### Updating Documentation
 ```bash
