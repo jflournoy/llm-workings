@@ -1,0 +1,21 @@
+/* Make the demo page wider */
+.demo-full-width {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+}
+
+.demo-full-width iframe {
+  width: 100%;
+  max-width: none;
+}
+
+/* Alternative: increase max-width for demo pages */
+.vp-doc.demo-page {
+  max-width: 1600px !important;
+}
+
+.vp-doc.demo-page .content-container {
+  max-width: none !important;
+}

@@ -9,6 +9,7 @@ Step through neural network training and see **every computation** in mathematic
 
 ## Try It Now
 
+<div class="demo-full-width">
 <iframe
   src="/understanding-llms/demos/neural-network/index.html"
   width="100%"
@@ -17,6 +18,7 @@ Step through neural network training and see **every computation** in mathematic
   style="border: 1px solid #e5e7eb; border-radius: 8px; margin: 1rem 0;"
   loading="lazy"
 ></iframe>
+</div>
 
 ::: tip
 Try adjusting the learning rate slider and watch how it affects convergence!
