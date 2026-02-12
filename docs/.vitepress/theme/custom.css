@@ -2,21 +2,30 @@
 .vp-doc,
 .vp-doc .container,
 .VPContent .container,
+.VPContent,
+.VPDoc,
 .content,
-.content-container {
-  max-width: 1600px !important;
+.content-container,
+.container {
+  max-width: 100% !important;
 }
 
-/* Remove padding constraints */
+/* Remove all padding and margin constraints */
 .vp-doc {
-  padding: 32px 64px !important;
+  padding: 32px 24px !important;
 }
 
-/* Make the demo iframe container even wider */
+/* Make the demo iframe truly full-width */
 .demo-full-width {
-  margin: 2rem -64px; /* Extend beyond padding */
-  width: calc(100% + 128px);
-  max-width: none;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
 
 .demo-full-width iframe {
@@ -25,7 +34,13 @@
   min-height: 900px;
 }
 
-/* Ensure sidebar doesn't restrict width */
-.VPDoc.has-aside .content-container {
+/* Remove sidebar width constraints entirely */
+.VPDoc.has-aside .content-container,
+.VPDoc .content-container {
   max-width: none !important;
+}
+
+/* Remove aside/sidebar on demo pages if needed */
+.VPDoc.has-aside .aside {
+  display: none;
 }
