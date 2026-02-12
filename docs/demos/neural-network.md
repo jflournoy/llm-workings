@@ -24,6 +24,73 @@ Step through neural network training and see **every computation** in mathematic
 Try adjusting the learning rate slider and watch how it affects convergence!
 :::
 
+## How to Use the Demo
+
+### Getting Started
+
+1. **Start Training**: Click the **Play ▶** button to begin training
+2. **Watch the Loss**: Observe the loss value decrease as the network learns
+3. **Explore Tabs**: Click through the tabs at the top to see different visualizations
+
+### Control Buttons
+
+- **▶ Play** - Start automatic training (steps through iterations)
+- **⏸ Pause** - Pause automatic training
+- **⏭ Step** - Advance one training step manually
+- **⏮ Step Back** - Go back one training step (view history)
+- **↻ Reset** - Start over with new random weights
+- **🎲 Randomize** - Generate new random initial weights
+
+### Learning Rate Slider
+
+Adjust how much the network changes its weights each step:
+- **0.1** (default) - Steady, reliable learning
+- **0.5-1.0** - Faster learning, might oscillate
+- **2.0+** - Very fast, often unstable (try it to see!)
+
+### Tabs to Explore
+
+1. **Network** - See the neural network diagram
+   - Node size = activation strength
+   - Edge color = weight sign (blue positive, red negative)
+   - Edge thickness = weight magnitude
+
+2. **Computation** - Watch the math step-by-step
+   - Forward pass calculations
+   - Loss computation
+   - Backward pass (gradients)
+   - Notation glossary at bottom
+
+3. **Data** - View the training data
+   - Scatter plot: see the 4 XOR points
+   - Table: all training samples with labels
+   - Noisy samples highlighted (if noise > 0%)
+
+4. **Predictions** - See how well it's learning
+   - Network output for each XOR case
+   - Accuracy percentage
+   - Loss value
+
+5. **Parameters** - Track weights over time
+   - Line graphs showing weight evolution
+   - Path strength visualization
+   - See which connections matter most
+
+### Training Data Options
+
+- **Data Size**: 50-500 samples (more = smoother learning)
+- **Noise**: 0-50% label corruption (tests robustness)
+- **Confidence Penalty**: Push predictions toward 0 or 1
+- **Regenerate**: Create new random dataset
+
+### Tips for Learning
+
+- **Start simple**: Use default settings (100 samples, no noise, LR 0.1)
+- **Watch one full run**: Let it train to convergence (loss near 0)
+- **Try different rates**: See how LR 0.5, 1.0, 2.0 behave
+- **Add noise**: See how the network handles bad data
+- **Reset and compare**: Different random starts → different solutions?
+
 ## What is XOR?
 
 **XOR (Exclusive OR)** is a logical operation that outputs `true` (1) only when inputs differ:
