@@ -91,6 +91,7 @@ export default defineConfig({
     ['meta', { name: 'og:title', content: 'LLM Workings - Understanding Language Models' }],
     ['meta', { name: 'og:description', content: 'A hands-on learning project exploring LLM internals through neural network implementations and interactive visualizations' }],
     ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['script', { async: '', src: 'https://scripts.simpleanalyticscdn.com/latest.js' }]
   ]
 })

@@ -82,3 +82,7 @@ Try:
 - Tests become documentation of your understanding
 - Catches regressions when experimenting
 - Small, verifiable steps build confidence
+
+## Analytics Tracking
+
+Simple Analytics tracking is configured in `docs/.vitepress/config.ts` under the `head` configuration array. The tracking script is automatically included in all rendered HTML pages when VitePress builds the documentation.
