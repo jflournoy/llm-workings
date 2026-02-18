@@ -2,8 +2,8 @@
 
 **A hands-on exploration of how language models actually work**
 
-📚 **[View Full Documentation](https://jflournoy.github.io/understanding-llms/)**
-🎮 **[Try Interactive Demo](https://jflournoy.github.io/understanding-llms/demos/neural-network)**
+📚 **[View Full Documentation](https://johnflournoy.science/llm-workings)**
+🎮 **[Try Interactive Demo](https://johnflournoy.science/llm-workings/demos/neural-network)**
 
 ## What This Is
 
