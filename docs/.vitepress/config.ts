@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'LLM Workings',
   description: 'A hands-on exploration of how language models actually work',
-  base: '/understanding-llms/',
+  base: '/llm-workings/',
 
   themeConfig: {
     nav: [

@@ -44,7 +44,7 @@ Step through neural network training and see **every computation** in mathematic
 
 <div class="demo-full-width">
 <iframe
-  src="/understanding-llms/demos/neural-network/index.html"
+  src="/llm-workings/demos/neural-network/index.html"
   width="100%"
   height="900px"
   frameborder="0"
